@@ -12,8 +12,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [Movies],
+  "keywords": [],
   "author": "LSX",
   "license": "ISC",
-  "description": "Movie nights with Duckz"
+  "description": "Movie nights nights with duckz"
 }
