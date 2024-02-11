@@ -1,0 +1,13 @@
+{
+    "token": "discord-token",
+    "acceptedAuthors": ["user-id"],
+    "streamOpts": {
+        "width": 2400,
+        "height": 1080,
+        "fps": 24,
+        "bitrateKbps": 4500,
+        "maxBitrateKbps": 4500,
+        "hardware_acceleration": true,
+        "videoCodec": "H264"
+    }
+}
