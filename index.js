@@ -29,6 +29,10 @@ client.on("messageCreate", async message => {
             message.reply('⚠️ Another download is already in progress. Please wait for it to finish.');
             return;
         }
+
+        if (!fs.existsSync('./library')) {
+            fs.mkdirSync('./library');
+        }
     
         isDownloading = true;
     
