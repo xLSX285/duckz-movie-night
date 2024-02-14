@@ -216,6 +216,11 @@ client.on("messageCreate", async message => {
 
         message.reply(`✅ ${fileName} has been deleted.`);
     } else if (message.content == '$list') {
+
+        if (!fs.existsSync('./library')) {
+            fs.mkdirSync('./library');
+        }
+        
         const files = fs.readdirSync('./library');
         if (files.length === 0) {
             message.reply('📂 The library is empty.');
